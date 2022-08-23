@@ -39,6 +39,7 @@ elForm.addEventListener("submit", function(evt){
             alert(data.error)
         }
     })
+    
     // 
     // function checkLogin(loginV, passwordV) {
     //     if (formLogin.includes(loginV) && formPassword.includes(passwordV)) {
