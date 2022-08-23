@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Bootstrap 5</title>
+</head>
+<body class="text-center">
+
+  <div class="d-flex flex-column justify-content-center w-100 h-100">
+  </div>
+  </div>
+
+
+  <main class="form-signin w-50 m-auto">
+    <form class="form__register register__form">
+      <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+      
+      <div class="form-floating">
+        <input type="text" class="form-control user__name" id="floatingName" placeholder="Name">
+        <label for="floatingName">Name</label>
+      </div>
+      <div class="form-floating">
+        <input type="email" class="form-control user__email" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control user__password" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+      
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" name="ok" class="user__isAdmin">isAdmin
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2022–2100</p>
+    </form>
+  </main>
+  
+  <script src="./js/register.js"></script>
+</body>
+</html>

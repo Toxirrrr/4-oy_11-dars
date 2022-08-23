@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(-45deg, #ff0000, #1eff00, #ffdd00, #00ff44);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    gap:  10px;
+}
+
+.header__temp {
+    width: 100%;
+}
